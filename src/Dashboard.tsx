@@ -224,8 +224,26 @@ I attempted to debug the issue but was unable to resolve it, so I decided to rea
             color: 'green',
             position: 'absolute'
 
-         }}> 1137.62 +2.62%  </p>
-          <img 
+         }}> 1137.62 +2.62% 
+         <img
+         src='../top.png'
+          alt= 'Top'
+          className = 'h-8 w-auto absolute'
+          style={{
+              // borderRadius: '50%',
+              left: '92px',
+              top: '4px',
+              width: '12px',
+              height: '12px',
+              
+              filter: 'invert(1)',
+              backgroundSize: '0px'
+              
+              
+          }}
+          /> 
+          </p>
+          {/* <img 
           src='../top.png'
           alt= 'Top'
           className = 'h-8 w-auto absolute'
@@ -235,12 +253,13 @@ I attempted to debug the issue but was unable to resolve it, so I decided to rea
               top: '13px',
               width: '12px',
               height: '12px',
-              
-              backgroundColor: 'green',
+              // filter: 'invert(1)',
+              'green',
+              backgroundSize: '0px'
               
               
           }}
-          /> 
+          />  */}
 
         
     </div>
